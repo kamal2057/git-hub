@@ -1,0 +1,49 @@
+ 
+to link two screen::::
+
+Navigator.push(context,MaterialPageRoute(builder: (context) => homepage(username)));
+
+
+add colorcode::::
+
+color(0XFFcolorcode);
+
+ROUTE PAGE::::
+
+ initialRoute: '/',
+  routes: {
+    
+    'file name': (context) => class of file name(),
+
+
+
+flutter_multi_formatter: ^2.5.7
+
+
+Firebase:
+  cloud_firestore: ^3.1.4
+  cupertino_icons: ^1.0.2
+  firebase_auth: ^3.3.3
+  firebase_core: ^1.10.5
+  firebase_storage: ^10.2.3
+  provider: ^6.0.3
+
+
+
+ border to texfield::
+TextField(
+  decoration: InputDecoration(
+    enabledBorder: OutlineInputBorder(
+      borderSide: BorderSide(width: 3, color: Colors.greenAccent), //<-- SEE HERE
+    ),
+  ),
+)
+
+
+
+borderside::
+const BorderSide(
+{Color color: const Color(0xFF000000),
+double width: 1.0,
+BorderStyle style: BorderStyle.solid}
+)
